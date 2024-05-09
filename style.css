@@ -14,3 +14,25 @@ a {
       height: 750px;
   }
 }
+.btn-header{
+  color: black;
+  font-weight: 300;
+  transition: all ease-in-out 0.35s;
+}
+.btn-header:hover{
+  background-color: #315316;
+  color: white;
+ margin-left: 10px ;
+}
+.btn-shop{
+  background: linear-gradient(240deg, #315316 , #72A748);
+  transition: all ease-in-out 0.45s;
+}
+.btn-shop:hover , 
+.btn-learn-more:hover{
+  box-shadow: 2px 20px 29px -16px rgba(174, 255, 108, 0.6) inset , 2px 29px 29px -16px #28470ecb;
+}
+.btn-learn-more{
+  border: 1px solid #315316;
+  transition: all ease-in-out 0.45s;
+}

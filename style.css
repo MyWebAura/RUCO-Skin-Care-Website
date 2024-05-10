@@ -36,3 +36,18 @@ a {
   border: 1px solid #315316;
   transition: all ease-in-out 0.45s;
 }
+.card-title{
+  color: #315316; 
+  font-family: 'Lora', serif;
+  font-weight: 600;
+}
+.card-text{
+  font-size: smaller;
+}
+.form-control::placeholder{
+  font-size: 12px;
+  color: lightgray;
+}
+.for-input:focus{
+ outline: none;
+}
